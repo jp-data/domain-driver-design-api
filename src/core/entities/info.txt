@@ -1,0 +1,4 @@
+contem objetos que serão compartilhados entre todas as entidades da aplicação
+Então todas as entidades da aplicação vão extender essa classe
+
+-- unique-entity-id -> referencia um ID unico nas entidades

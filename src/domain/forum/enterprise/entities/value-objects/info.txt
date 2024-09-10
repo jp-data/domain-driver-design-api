@@ -1,0 +1,18 @@
+"O valor de um Value Object é determinado pelos seus atributos e não por uma identidade única."
+
+Algumas características e conceitos importantes relacionados a Value Objects:
+
+- Imutabilidade: Value Objects são tipicamente imutáveis. Uma vez criados, seus atributos não podem ser alterados. 
+Se precisar modificar um Value Object, você geralmente cria um novo.
+
+- Igualdade por Valor: Dois Value Objects são considerados iguais se todos os seus atributos forem iguais. 
+Isso contrasta com entidades, que são diferenciadas por uma identidade única.
+
+- Sem Identidade: Value Objects não têm identidade própria. Sua importância está em seu valor e não em uma identificação única. 
+Por exemplo, um endereço ou uma data são Value Objects porque o significado deles é definido pelos valores que carregam, e não por um identificador único.
+
+- Encapsulamento de Lógica: Embora sejam simples, Value Objects podem encapsular lógica relacionada à validade dos seus atributos.
+Por exemplo, um objeto de valor para representar um "Email" pode validar se o endereço de e-mail é bem formado.
+
+- Uso Comum: Value Objects são frequentemente usados para representar conceitos que têm um significado claro e um formato bem definido.
+Exemplos incluem "Dinheiro" (com uma quantia e uma moeda), "Telefone" (com um número e um código de país), ou "Ponto" em um espaço 2D (com coordenadas X e Y).

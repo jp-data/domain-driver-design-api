@@ -1,0 +1,1 @@
+Factories é um tipo de design pattern - remete a "uma fábrica que faz coisas para outros"; no nosso exemplo 'fabricamos' uma questão modelo para ser testada
