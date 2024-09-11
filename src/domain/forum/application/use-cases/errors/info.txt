@@ -1,0 +1,1 @@
+Será gerado um arquivo para cada tipo de erro
